@@ -1,5 +1,5 @@
 #include <stdio.h>
-void sqeeze(char s1[], char s2[])
+void any(char s1[], char s2[])
 {
   int flag = 0;
   int index = 100;
@@ -35,6 +35,6 @@ int main()
   char s1[10], s2[10];
   gets(s1);
   gets(s2);
-  sqeeze(s1,s2);
+  any(s1,s2);
   return 0;
 }
